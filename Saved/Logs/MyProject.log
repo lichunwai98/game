@@ -7506,3 +7506,590 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.12.19-08.35.37:408][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/project/charactor/2DSideScrollerCharacter]
 [2019.12.19-08.35.37:533][ 80]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerCharacter_Auto0EB6ABF0C45F6B2D3C07D9BAEADEE90B0.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/project/charactor/2DSideScrollerCharacter_Auto0.uasset'
 [2019.12.19-08.35.37:540][ 80]LogFileHelpers: Auto-saving content packages took 0.133
+[2019.12.19-08.49.29:879][298]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-08.49.33:699][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.50.28:212][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.51.28:543][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.52.39:834][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.53.32:465][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.54.08:910][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.54.18:588][505]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2019.12.19-08.54.22:398][726]Cmd: TRANSACTION UNDO
+[2019.12.19-08.54.22:398][726]LogEditorTransaction: Undo Delete current selection
+[2019.12.19-08.54.25:304][887]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2019.12.19-08.54.26:729][887]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.19-08.54.26:858][887]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2019.12.19-08.54.52:183][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.12.19-08.54.52:626][ 13]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerExampleMap_Auto1AD749A8B4AF2DF3DB17C62B7EBBA9971.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/project/widgets/2DSideScrollerExampleMap_Auto1.umap'
+[2019.12.19-08.54.52:631][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/project/widgets/2DSideScrollerExampleMap' took 0.493
+[2019.12.19-08.54.52:631][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.493
+[2019.12.19-08.54.52:635][ 13]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/project/charactor/2DSideScrollerCharacter] ([1] browsable assets)...
+[2019.12.19-08.54.52:635][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/project/charactor/2DSideScrollerCharacter]
+[2019.12.19-08.54.52:765][ 13]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerCharacter_Auto133BE2AEC453FBA271206D99167285A33.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/project/charactor/2DSideScrollerCharacter_Auto1.uasset'
+[2019.12.19-08.54.52:767][ 13]LogFileHelpers: Auto-saving content packages took 0.133
+[2019.12.19-08.56.28:933][211]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint158)
+[2019.12.19-08.56.31:360][350]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint158)
+[2019.12.19-08.56.59:929][890]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-08.57.06:689][255]LogEditorViewport: Clicking Background
+[2019.12.19-08.57.06:949][268]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (GlobalPostProcessSettings)
+[2019.12.19-08.57.10:481][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.57.14:956][635]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.12.19-08.57.16:549][709]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/project/charactor/NewBlueprint7.NewBlueprint7
+[2019.12.19-08.59.20:829][778]BlueprintLog: New page: Compile NewBlueprint7
+[2019.12.19-08.59.21:105][778]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2019.12.19-08.59.22:386][821]LogSlate: Window 'NewBlueprint7' being destroyed
+[2019.12.19-08.59.22:397][821]LogSlate: Window 'NewBlueprint7' being destroyed
+[2019.12.19-08.59.22:466][821]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-08.59.22:640][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.12.19-08.59.22:640][821]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-08.59.45:085][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-08.59.57:267][669]Cmd: TRANSACTION UNDO
+[2019.12.19-08.59.57:267][669]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.00.03:244][ 20]Cmd: TRANSACTION UNDO
+[2019.12.19-09.00.03:244][ 20]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.00.11:055][467]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint161)
+[2019.12.19-09.00.13:511][611]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint162)
+[2019.12.19-09.00.16:446][783]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint161)
+[2019.12.19-09.00.19:828][982]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint162)
+[2019.12.19-09.00.33:604][755]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint166)
+[2019.12.19-09.00.34:204][790]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint165)
+[2019.12.19-09.00.34:636][814]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint164)
+[2019.12.19-09.00.35:071][838]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint163)
+[2019.12.19-09.00.35:936][888]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint162)
+[2019.12.19-09.00.36:601][926]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint161)
+[2019.12.19-09.00.38:283][ 25]LogEditorViewport: Clicking on Actor (CTRL LMB): NewBlueprint7_C (NewBlueprint162)
+[2019.12.19-09.00.38:731][ 50]LogEditorViewport: Clicking on Actor (CTRL LMB): NewBlueprint7_C (NewBlueprint163)
+[2019.12.19-09.00.39:095][ 70]LogEditorViewport: Clicking on Actor (CTRL LMB): NewBlueprint7_C (NewBlueprint164)
+[2019.12.19-09.00.39:538][ 94]LogEditorViewport: Clicking on Actor (CTRL LMB): NewBlueprint7_C (NewBlueprint165)
+[2019.12.19-09.00.39:923][115]LogEditorViewport: Clicking on Actor (CTRL LMB): NewBlueprint7_C (NewBlueprint166)
+[2019.12.19-09.00.57:297][ 54]Cmd: TRANSACTION UNDO
+[2019.12.19-09.00.57:297][ 54]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.00.57:613][ 70]Cmd: TRANSACTION UNDO
+[2019.12.19-09.00.57:613][ 70]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.01.04:378][453]Cmd: TRANSACTION UNDO
+[2019.12.19-09.01.04:378][453]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.01.11:288][845]Cmd: TRANSACTION UNDO
+[2019.12.19-09.01.11:288][845]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.01.14:057][993]Cmd: TRANSACTION UNDO
+[2019.12.19-09.01.14:057][993]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.01.15:678][ 88]LogEditorViewport: Clicking Background
+[2019.12.19-09.01.18:073][230]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint166)
+[2019.12.19-09.01.19:799][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.01.45:499][653]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2019.12.19-09.01.46:367][698]Cmd: TRANSACTION UNDO
+[2019.12.19-09.01.46:367][698]LogEditorTransaction: Undo Clicking on Actors
+[2019.12.19-09.02.02:975][593]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint157)
+[2019.12.19-09.02.08:844][831]Cmd: TRANSACTION UNDO
+[2019.12.19-09.02.08:844][831]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.02.31:591][ 71]Cmd: TRANSACTION UNDO
+[2019.12.19-09.02.31:591][ 71]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.02.39:133][505]Cmd: TRANSACTION UNDO
+[2019.12.19-09.02.39:133][505]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.03.41:671][962]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.03.45:912][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.03.46:826][240]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.03.50:795][473]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.03.55:025][720]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.03.56:297][794]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.03.57:462][860]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.03.59:118][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.04.01:297][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.04.07:564][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.04.27:666][631]Cmd: TRANSACTION UNDO
+[2019.12.19-09.04.27:666][631]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.04.34:090][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.04.37:456][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.04.39:643][324]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint_C (NewBlueprint)
+[2019.12.19-09.05.06:190][876]LogEditorViewport: Clicking on Actor (LMB): coin_C (coin3)
+[2019.12.19-09.05.07:499][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.05.11:195][173]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.19-09.05.11:228][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.05.11:228][173]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.19-09.05.11:241][173]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerCharacter before play...
+[2019.12.19-09.05.11:545][173]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2019.12.19-09.05.11:545][173]LogPlayLevel: PlayLevel: Blueprint regeneration took 317 ms (1 blueprints)
+[2019.12.19-09.05.11:545][173]PIE: New page: PIE session: 2DSideScrollerExampleMap (2019年12月20日上午1:05:11)
+[2019.12.19-09.05.11:546][173]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.05.11:577][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030988s)
+[2019.12.19-09.05.11:579][173]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.05.11:579][173]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2019.12.19-09.05.11:580][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.033454s)
+[2019.12.19-09.05.11:625][173]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2019.12.19-09.05.11:630][173]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.19-09.05.11:648][173]LogInit: FAudioDevice initialized.
+[2019.12.19-09.05.11:657][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.05.11:657][173]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.05.11:688][173]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.05.11
+[2019.12.19-09.05.11:692][173]LogWorld: Bringing up level for play took: 0.034256
+[2019.12.19-09.05.11:693][173]LogOnline: OSS: Creating online subsystem instance for: :Context_128
+[2019.12.19-09.05.11:703][173]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap 0.021
+[2019.12.19-09.05.11:703][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.05.22:266][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.05.22:266][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.05.22:266][739]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.05.22:312][739]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.19-09.05.22:318][739]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.05.22:334][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.19-09.05.22:334][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.05.22:416][739]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2019.12.19-09.05.22:449][740]LogPlayLevel: Display: Destroying online subsystem :Context_128
+[2019.12.19-09.05.53:495][572]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint80)
+[2019.12.19-09.05.56:402][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.06.53:005][967]LogEditorViewport: Clicking Background
+[2019.12.19-09.06.54:171][ 36]Cmd: TRANSACTION UNDO
+[2019.12.19-09.06.54:172][ 36]LogEditorTransaction: Undo Clicking Background
+[2019.12.19-09.06.54:793][ 69]Cmd: TRANSACTION UNDO
+[2019.12.19-09.06.54:793][ 69]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.06.55:510][111]Cmd: TRANSACTION UNDO
+[2019.12.19-09.06.55:510][111]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.06.55:838][130]Cmd: TRANSACTION UNDO
+[2019.12.19-09.06.55:838][130]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.06.56:760][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.07.01:759][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.07.03:004][554]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.07.06:373][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.07.48:967][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.08.02:044][335]LogEditorViewport: Clicking Background
+[2019.12.19-09.08.02:705][374]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint251)
+[2019.12.19-09.08.05:261][523]LogEditorViewport: Clicking Background
+[2019.12.19-09.08.05:856][558]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint251)
+[2019.12.19-09.08.08:023][685]LogEditorViewport: Clicking Background
+[2019.12.19-09.08.09:808][790]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint251)
+[2019.12.19-09.08.18:849][314]LogEditorViewport: Clicking Background
+[2019.12.19-09.08.24:205][634]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint251)
+[2019.12.19-09.08.24:787][665]LogEditorViewport: Clicking on Actor (CTRL LMB): NewBlueprint2_C (NewBlueprint252)
+[2019.12.19-09.08.25:233][689]LogEditorViewport: Clicking on Actor (CTRL LMB): NewBlueprint2_C (NewBlueprint253)
+[2019.12.19-09.08.33:617][172]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint251)
+[2019.12.19-09.08.35:161][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.08.40:383][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.08.53:839][237]LogEditorViewport: Clicking Background
+[2019.12.19-09.08.54:474][274]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint286)
+[2019.12.19-09.08.59:485][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.09.03:877][803]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2019.12.19-09.09.10:830][205]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint235)
+[2019.12.19-09.09.14:263][401]Cmd: TRANSACTION UNDO
+[2019.12.19-09.09.14:263][401]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.09.22:576][562]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint235)
+[2019.12.19-09.09.27:311][834]LogEditorViewport: Clicking Background
+[2019.12.19-09.09.31:456][ 76]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint291)
+[2019.12.19-09.09.53:604][170]LogEditorViewport: Clicking Background
+[2019.12.19-09.09.53:920][185]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint248)
+[2019.12.19-09.09.54:753][228]LogEditorViewport: Clicking Background
+[2019.12.19-09.09.56:921][352]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint244)
+[2019.12.19-09.09.57:879][407]Cmd: DELETE
+[2019.12.19-09.09.57:879][407]Cmd: ACTOR DELETE
+[2019.12.19-09.09.57:893][407]LogEditorActor: Deleted Actor: NewBlueprint2_C
+[2019.12.19-09.09.57:939][407]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2019.12.19-09.09.57:939][407]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2019.12.19-09.09.58:442][437]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint250)
+[2019.12.19-09.09.58:508][439]Cmd: DELETE
+[2019.12.19-09.09.58:508][439]Cmd: ACTOR DELETE
+[2019.12.19-09.09.58:518][439]LogEditorActor: Deleted Actor: NewBlueprint2_C
+[2019.12.19-09.09.58:563][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.12.19-09.09.58:563][439]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.12.19-09.09.58:960][463]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint249)
+[2019.12.19-09.09.59:008][464]Cmd: DELETE
+[2019.12.19-09.09.59:008][464]Cmd: ACTOR DELETE
+[2019.12.19-09.09.59:023][464]LogEditorActor: Deleted Actor: NewBlueprint2_C
+[2019.12.19-09.09.59:066][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2019.12.19-09.09.59:066][464]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2019.12.19-09.09.59:401][484]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint247)
+[2019.12.19-09.09.59:482][487]Cmd: DELETE
+[2019.12.19-09.09.59:482][487]Cmd: ACTOR DELETE
+[2019.12.19-09.09.59:494][487]LogEditorActor: Deleted Actor: NewBlueprint2_C
+[2019.12.19-09.09.59:537][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2019.12.19-09.09.59:538][487]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.12.19-09.09.59:932][511]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint248)
+[2019.12.19-09.09.59:951][511]Cmd: DELETE
+[2019.12.19-09.09.59:951][511]Cmd: ACTOR DELETE
+[2019.12.19-09.09.59:960][511]LogEditorActor: Deleted Actor: NewBlueprint2_C
+[2019.12.19-09.10.00:005][511]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2019.12.19-09.10.00:006][511]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.12.19-09.10.00:463][538]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint246)
+[2019.12.19-09.10.00:516][539]Cmd: DELETE
+[2019.12.19-09.10.00:516][539]Cmd: ACTOR DELETE
+[2019.12.19-09.10.00:527][539]LogEditorActor: Deleted Actor: NewBlueprint2_C
+[2019.12.19-09.10.00:571][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2019.12.19-09.10.00:572][539]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.12.19-09.10.01:445][591]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint245)
+[2019.12.19-09.10.01:542][595]Cmd: DELETE
+[2019.12.19-09.10.01:542][595]Cmd: ACTOR DELETE
+[2019.12.19-09.10.01:552][595]LogEditorActor: Deleted Actor: NewBlueprint2_C
+[2019.12.19-09.10.01:596][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2019.12.19-09.10.01:597][595]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2019.12.19-09.10.04:881][776]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (GlobalPostProcessSettings)
+[2019.12.19-09.10.07:313][891]LogEditorViewport: Clicking Background
+[2019.12.19-09.10.10:725][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.10.14:684][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.10.35:839][543]Cmd: TRANSACTION UNDO
+[2019.12.19-09.10.35:839][543]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.10.49:028][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.10.50:030][363]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.10.59:221][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.11.05:648][285]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint246)
+[2019.12.19-09.11.10:297][545]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint247)
+[2019.12.19-09.11.12:574][678]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint248)
+[2019.12.19-09.11.15:030][822]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint249)
+[2019.12.19-09.11.27:275][541]Cmd: TRANSACTION UNDO
+[2019.12.19-09.11.27:275][541]LogEditorTransaction: Undo Move Actors
+[2019.12.19-09.11.28:964][638]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint249)
+[2019.12.19-09.11.29:809][686]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint250)
+[2019.12.19-09.11.49:749][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.11.49:850][845]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.19-09.11.49:884][845]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.11.49:884][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.19-09.11.49:884][845]PIE: New page: PIE session: 2DSideScrollerExampleMap (2019年12月20日上午1:11:49)
+[2019.12.19-09.11.49:885][845]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.11.49:931][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045431s)
+[2019.12.19-09.11.49:932][845]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.11.49:932][845]LogPlayLevel: PIE: World Init took: (0.001601s)
+[2019.12.19-09.11.49:933][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.047337s)
+[2019.12.19-09.11.49:991][845]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2019.12.19-09.11.49:997][845]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.19-09.11.50:020][845]LogInit: FAudioDevice initialized.
+[2019.12.19-09.11.50:029][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.11.50:030][845]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.11.50:069][845]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.11.50
+[2019.12.19-09.11.50:074][845]LogWorld: Bringing up level for play took: 0.043549
+[2019.12.19-09.11.50:074][845]LogOnline: OSS: Creating online subsystem instance for: :Context_129
+[2019.12.19-09.11.50:085][845]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap 0.403
+[2019.12.19-09.11.50:085][845]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.11.58:681][298]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.11.58:682][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.11.58:682][298]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.11.58:719][298]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.19-09.11.58:726][298]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.11.58:744][298]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.19-09.11.58:745][298]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.11.58:824][298]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2019.12.19-09.11.58:850][299]LogPlayLevel: Display: Destroying online subsystem :Context_129
+[2019.12.19-09.12.00:374][382]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint248)
+[2019.12.19-09.12.07:448][793]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint298)
+[2019.12.19-09.12.08:167][834]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint299)
+[2019.12.19-09.12.08:868][874]Cmd: DELETE
+[2019.12.19-09.12.08:869][874]Cmd: ACTOR DELETE
+[2019.12.19-09.12.08:881][874]LogEditorActor: Deleted Actor: NewBlueprint7_C
+[2019.12.19-09.12.08:924][874]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.12.19-09.12.08:924][874]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2019.12.19-09.12.09:311][897]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint298)
+[2019.12.19-09.12.11:477][ 24]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint298)
+[2019.12.19-09.12.12:098][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.12.13:116][115]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.12.14:468][194]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.12.17:209][356]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.12.19-09.12.17:717][386]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint297)
+[2019.12.19-09.12.19:896][511]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint298)
+[2019.12.19-09.12.22:926][686]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint297)
+[2019.12.19-09.12.28:547][  9]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint297)
+[2019.12.19-09.12.29:249][ 48]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint2_C (NewBlueprint299)
+[2019.12.19-09.12.31:246][161]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint7_C (NewBlueprint298)
+[2019.12.19-09.12.32:246][219]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint291)
+[2019.12.19-09.13.08:808][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.13.08:925][824]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.19-09.13.08:960][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.13.08:960][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.19-09.13.08:960][824]PIE: New page: PIE session: 2DSideScrollerExampleMap (2019年12月20日上午1:13:08)
+[2019.12.19-09.13.08:960][824]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.13.09:001][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041072s)
+[2019.12.19-09.13.09:002][824]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.13.09:003][824]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2019.12.19-09.13.09:003][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.042548s)
+[2019.12.19-09.13.09:051][824]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.12.19-09.13.09:055][824]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.19-09.13.09:072][824]LogInit: FAudioDevice initialized.
+[2019.12.19-09.13.09:081][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.13.09:081][824]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.13.09:115][824]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.13.09
+[2019.12.19-09.13.09:121][824]LogWorld: Bringing up level for play took: 0.038723
+[2019.12.19-09.13.09:121][824]LogOnline: OSS: Creating online subsystem instance for: :Context_130
+[2019.12.19-09.13.09:132][824]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap -0.55
+[2019.12.19-09.13.09:132][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.13.18:457][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.13.18:458][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.13.18:458][310]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.13.18:504][310]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.19-09.13.18:522][310]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.13.18:537][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.19-09.13.18:538][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.13.18:619][310]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2019.12.19-09.13.18:648][311]LogPlayLevel: Display: Destroying online subsystem :Context_130
+[2019.12.19-09.13.30:134][981]LogEditorViewport: Clicking Background
+[2019.12.19-09.13.30:532][  0]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint302)
+[2019.12.19-09.14.06:371][969]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint307)
+[2019.12.19-09.14.09:747][149]LogEditorViewport: Clicking on Actor (LMB): NewBlueprint1_C (NewBlueprint306)
+[2019.12.19-09.14.12:633][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.14.12:716][319]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.19-09.14.12:749][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.14.12:750][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.19-09.14.12:750][319]PIE: New page: PIE session: 2DSideScrollerExampleMap (2019年12月20日上午1:14:12)
+[2019.12.19-09.14.12:750][319]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.14.12:796][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045651s)
+[2019.12.19-09.14.12:797][319]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.14.12:797][319]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2019.12.19-09.14.12:797][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.047057s)
+[2019.12.19-09.14.12:845][319]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2019.12.19-09.14.12:849][319]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.19-09.14.12:866][319]LogInit: FAudioDevice initialized.
+[2019.12.19-09.14.12:874][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.14.12:874][319]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.14.12:918][319]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.14.12
+[2019.12.19-09.14.12:922][319]LogWorld: Bringing up level for play took: 0.047270
+[2019.12.19-09.14.12:923][319]LogOnline: OSS: Creating online subsystem instance for: :Context_131
+[2019.12.19-09.14.12:932][319]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap -0.75
+[2019.12.19-09.14.12:932][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.14.23:180][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.14.23:180][847]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.14.23:181][847]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.14.23:225][847]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.19-09.14.23:231][847]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.14.23:249][847]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.19-09.14.23:250][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.14.23:334][847]LogUObjectHash: Compacting FUObjectHashTables data took   5.10ms
+[2019.12.19-09.14.23:362][848]LogPlayLevel: Display: Destroying online subsystem :Context_131
+[2019.12.19-09.14.24:672][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.14.26:119][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.14.30:576][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.14.34:806][439]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.12.19-09.14.42:380][880]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/project/charactor/win.win
+[2019.12.19-09.14.55:177][506]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/project/charactor/win2.win2
+[2019.12.19-09.15.03:213][886]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2019.12.19-09.15.08:401][176]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2019.12.19-09.15.10:018][176]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.19-09.15.10:079][176]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.15.10:178][176]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/project/charactor/win2.win2
+[2019.12.19-09.15.11:949][176]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2019.12.19-09.15.19:904][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.15.31:715][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.15.32:282][295]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/project/charactor/win_2.win_2
+[2019.12.19-09.16.06:593][  2]LogObjectTools: Deleting 1 worlds: /Game/project/widgets/w.w
+[2019.12.19-09.16.06:593][  2]LogObjectTools: Currently 4 active worlds: /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap, /Engine/Transient.World_5, /Engine/Transient.World_23, /Engine/Transient.World_25
+[2019.12.19-09.16.06:646][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2019.12.19-09.16.07:695][  2]LogSlate: Window 'Delete Assets' being destroyed
+[2019.12.19-09.16.07:827][  2]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2019.12.19-09.16.09:436][ 86]LogAIModule: Creating AISystem for world wining1
+[2019.12.19-09.16.09:497][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2019.12.19-09.16.09:735][ 86]LogAIModule: Creating AISystem for world wining1_2
+[2019.12.19-09.16.10:844][140]LogAssetEditorManager: Opening Asset editor for World /Game/project/widgets/wining1_2.wining1_2
+[2019.12.19-09.16.10:900][140]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2019.12.19-09.16.12:189][140]LogSlate: Window 'Save Content' being destroyed
+[2019.12.19-09.16.12:356][140]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerCharacter7CA8F29D467EF2839125B999D5A581D7.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/2DSideScrollerCharacter.uasset'
+[2019.12.19-09.16.12:365][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/project/charactor/NewBlueprint6" FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/NewBlueprint6.uasset" SILENT=true
+[2019.12.19-09.16.12:381][140]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/NewBlueprint64EDF46A149B2C06BF7DCA181279538F5.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/NewBlueprint6.uasset'
+[2019.12.19-09.16.12:389][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/project/charactor/NewBlueprint7" FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/NewBlueprint7.uasset" SILENT=true
+[2019.12.19-09.16.12:408][140]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/NewBlueprint7AD128ED4452853897FAB3BA1D3106F44.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/NewBlueprint7.uasset'
+[2019.12.19-09.16.12:412][140]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/project/charactor/win_2" FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/win_2.uasset" SILENT=true
+[2019.12.19-09.16.12:445][140]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/win_2F83459E248F7FABE8E337BA6F20AAFAB.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/win_2.uasset'
+[2019.12.19-09.16.12:494][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.12.19-09.16.13:106][140]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerExampleMapA5E14F9043508171E1009CAB509D7F56.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/2DSideScrollerExampleMap.umap'
+[2019.12.19-09.16.13:248][140]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.800
+[2019.12.19-09.16.13:322][140]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2019.12.19-09.16.13:602][140]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/wining1_27623B16148C13D5DA572A28EC3A7F87C.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/wining1_2.umap'
+[2019.12.19-09.16.13:605][140]LogFileHelpers: Saving map 'wining1_2' took 0.356
+[2019.12.19-09.16.13:610][140]Cmd: MAP LOAD FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/wining1_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.19-09.16.13:610][140]LightingResults: New page: Lighting Build
+[2019.12.19-09.16.13:611][140]LoadErrors: New page: Loading map: wining1_2.umap
+[2019.12.19-09.16.13:619][140]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.16.13:621][140]MapCheck: New page: Map Check
+[2019.12.19-09.16.13:621][140]LightingResults: New page: Lighting Build
+[2019.12.19-09.16.13:684][140]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2019.12.19-09.16.13:734][140]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2019.12.19-09.16.13:779][140]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2019.12.19-09.16.13:865][140]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2019.12.19-09.16.13:916][140]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.12.19-09.16.13:980][140]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.19-09.16.13:980][140]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.144ms to complete.
+[2019.12.19-09.16.13:983][140]LogFileHelpers: Loading map 'wining1_2' took 0.375
+[2019.12.19-09.16.15:055][140]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.16.18:384][317]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2
+[2019.12.19-09.16.40:948][403]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.19-09.16.48:333][831]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2019.12.19-09.16.50:021][922]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/project/widgets/win1_2.win1_2
+[2019.12.19-09.16.57:820][220]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.19-09.17.38:702][980]BlueprintLog: New page: Compile win1_2
+[2019.12.19-09.17.39:002][980]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2019.12.19-09.17.39:835][ 19]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.19-09.17.39:884][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2' with GeneratedClass '/Game/project/widgets/wining1_2.wining1_2_C' with ClassGeneratedBy '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2'
+[2019.12.19-09.17.39:884][ 19]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.19-09.17.39:885][ 19]LogPlayLevel: [PlayLevel] Compiling win_2 before play...
+[2019.12.19-09.17.40:129][ 19]LogPlayLevel: [PlayLevel] Compiling wining1_2 before play...
+[2019.12.19-09.17.40:521][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2019.12.19-09.17.40:521][ 19]LogPlayLevel: PlayLevel: Blueprint regeneration took 637 ms (2 blueprints)
+[2019.12.19-09.17.40:522][ 19]PIE: New page: PIE session: wining1_2 (2019年12月20日上午1:17:40)
+[2019.12.19-09.17.40:522][ 19]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_wining1_2
+[2019.12.19-09.17.40:524][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001235s)
+[2019.12.19-09.17.40:525][ 19]LogAIModule: Creating AISystem for world wining1_2
+[2019.12.19-09.17.40:525][ 19]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2019.12.19-09.17.40:525][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/wining1_2.wining1_2 to /Game/project/widgets/UEDPIE_0_wining1_2.wining1_2 (0.002682s)
+[2019.12.19-09.17.40:577][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2019.12.19-09.17.40:581][ 19]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.19-09.17.40:599][ 19]LogInit: FAudioDevice initialized.
+[2019.12.19-09.17.40:606][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.17.40:606][ 19]LogLoad: Game class is 'GameMode'
+[2019.12.19-09.17.40:607][ 19]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_wining1_2.wining1_2 up for play (max tick rate 60) at 2019.12.19-17.17.40
+[2019.12.19-09.17.40:608][ 19]LogWorld: Bringing up level for play took: 0.000613
+[2019.12.19-09.17.40:608][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_138
+[2019.12.19-09.17.40:612][ 19]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.19-09.17.40:612][ 19]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.19-09.17.40:612][ 19]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.19-09.17.40:615][ 19]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.19-09.17.40:620][ 19]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_wining1_2 0.939
+[2019.12.19-09.17.40:620][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2' with GeneratedClass '/Game/project/widgets/wining1_2.wining1_2_C' with ClassGeneratedBy '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2'
+[2019.12.19-09.17.41:815][ 64]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.19-09.17.41:815][ 64]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.19-09.17.41:815][ 64]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap
+[2019.12.19-09.17.41:816][ 64]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
+[2019.12.19-09.17.41:816][ 64]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_wining1_2
+[2019.12.19-09.17.41:816][ 64]LogWorld: UWorld::CleanupWorld for wining1_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.17.41:879][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2019.12.19-09.17.41:879][ 64]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.17.41:930][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050699s)
+[2019.12.19-09.17.41:931][ 64]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.17.41:931][ 64]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2019.12.19-09.17.41:932][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.052491s)
+[2019.12.19-09.17.41:932][ 64]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.17.41:964][ 64]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.17.41
+[2019.12.19-09.17.41:968][ 64]LogWorld: Bringing up level for play took: 0.034739
+[2019.12.19-09.17.41:971][ 64]LogLoad: Took 0.155422 seconds to LoadMap(/Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap)
+[2019.12.19-09.17.43:263][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2' with GeneratedClass '/Game/project/widgets/wining1_2.wining1_2_C' with ClassGeneratedBy '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2'
+[2019.12.19-09.17.43:264][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.17.43:264][112]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.17.43:304][112]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.19-09.17.43:311][112]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.17.43:331][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.19-09.17.43:331][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2' with GeneratedClass '/Game/project/widgets/wining1_2.wining1_2_C' with ClassGeneratedBy '/Game/project/widgets/wining1_2.wining1_2:PersistentLevel.wining1_2'
+[2019.12.19-09.17.43:417][112]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2019.12.19-09.17.43:440][113]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2019.12.19-09.17.47:645][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.12.19-09.17.47:929][324]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/wining1_2F4270E434FCB669F21E0EE90CC129EA8.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/wining1_2.umap'
+[2019.12.19-09.17.53:943][669]LogAssetEditorManager: Opening Asset editor for World /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2019.12.19-09.17.54:000][669]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2019.12.19-09.17.55:375][669]LogSlate: Window 'Save Content' being destroyed
+[2019.12.19-09.17.55:386][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/project/charactor/win_2" FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/win_2.uasset" SILENT=true
+[2019.12.19-09.17.55:470][669]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/win_2C032469C49B347C5616F399958F46BE6.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/win_2.uasset'
+[2019.12.19-09.17.55:783][669]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.12.19-09.17.56:371][669]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerExampleMap1AA325E1415027B9FDFB72826B989FC4.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/2DSideScrollerExampleMap.umap'
+[2019.12.19-09.17.56:549][669]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 1.075
+[2019.12.19-09.17.56:550][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/project/widgets/win1_2" FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/win1_2.uasset" SILENT=true
+[2019.12.19-09.17.56:575][669]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/win1_2866064FB4EE90BAB1850DB8D05085597.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/win1_2.uasset'
+[2019.12.19-09.17.56:582][669]Cmd: MAP LOAD FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.19-09.17.56:583][669]LightingResults: New page: Lighting Build
+[2019.12.19-09.17.56:584][669]LoadErrors: New page: Loading map: 2DSideScrollerExampleMap.umap
+[2019.12.19-09.17.56:617][669]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.17.56:690][669]LogWorld: UWorld::CleanupWorld for wining1_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.17.56:690][669]MapCheck: New page: Map Check
+[2019.12.19-09.17.56:690][669]LightingResults: New page: Lighting Build
+[2019.12.19-09.17.56:749][669]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2019.12.19-09.17.57:166][669]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.19-09.17.57:226][669]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2019.12.19-09.17.57:304][669]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.19-09.17.57:304][669]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.19ms to complete.
+[2019.12.19-09.17.57:307][669]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.727
+[2019.12.19-09.17.58:484][724]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.19-09.17.58:528][724]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.17.58:528][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.19-09.17.58:528][724]PIE: New page: PIE session: 2DSideScrollerExampleMap (2019年12月20日上午1:17:58)
+[2019.12.19-09.17.58:528][724]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.17.58:569][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040763s)
+[2019.12.19-09.17.58:570][724]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.17.58:571][724]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2019.12.19-09.17.58:571][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.042202s)
+[2019.12.19-09.17.58:619][724]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2019.12.19-09.17.58:622][724]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.19-09.17.58:639][724]LogInit: FAudioDevice initialized.
+[2019.12.19-09.17.58:647][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.17.58:647][724]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.17.58:692][724]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.17.58
+[2019.12.19-09.17.58:696][724]LogWorld: Bringing up level for play took: 0.046801
+[2019.12.19-09.17.58:696][724]LogOnline: OSS: Creating online subsystem instance for: :Context_139
+[2019.12.19-09.17.58:703][724]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap 1.022
+[2019.12.19-09.17.58:703][724]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.18.11:327][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.18.11:327][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.18.11:327][396]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.18.11:366][396]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.19-09.18.11:375][396]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.18.11:395][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.19-09.18.11:396][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.18.11:481][396]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.12.19-09.18.11:503][397]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2019.12.19-09.18.12:314][435]LogEditorViewport: Clicking on Actor (LMB): win_2_C (win_2)
+[2019.12.19-09.18.13:595][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.18.15:982][651]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.19-09.18.16:024][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.18.16:024][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.19-09.18.16:025][651]PIE: New page: PIE session: 2DSideScrollerExampleMap (2019年12月20日上午1:18:16)
+[2019.12.19-09.18.16:025][651]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.18.16:065][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040660s)
+[2019.12.19-09.18.16:067][651]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.18.16:067][651]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2019.12.19-09.18.16:067][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.042074s)
+[2019.12.19-09.18.16:116][651]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.12.19-09.18.16:120][651]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.19-09.18.16:137][651]LogInit: FAudioDevice initialized.
+[2019.12.19-09.18.16:144][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.18.16:145][651]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.18.16:185][651]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.18.16
+[2019.12.19-09.18.16:190][651]LogWorld: Bringing up level for play took: 0.044314
+[2019.12.19-09.18.16:190][651]LogOnline: OSS: Creating online subsystem instance for: :Context_140
+[2019.12.19-09.18.16:198][651]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap 0.516
+[2019.12.19-09.18.16:198][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.18.17:903][730]Cmd: RestartLevel
+[2019.12.19-09.18.17:923][731]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap?restart
+[2019.12.19-09.18.17:923][731]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
+[2019.12.19-09.18.17:923][731]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.18.17:924][731]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.18.18:004][731]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.12.19-09.18.18:004][731]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.18.18:050][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045239s)
+[2019.12.19-09.18.18:051][731]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.18.18:051][731]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2019.12.19-09.18.18:051][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.046646s)
+[2019.12.19-09.18.18:051][731]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.18.18:074][731]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.18.18
+[2019.12.19-09.18.18:077][731]LogWorld: Bringing up level for play took: 0.024383
+[2019.12.19-09.18.18:080][731]LogLoad: Took 0.156734 seconds to LoadMap(/Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap)
+[2019.12.19-09.18.29:026][307]LogNet: Browse: /Game/project/widgets/wining1_2
+[2019.12.19-09.18.29:026][307]LogLoad: LoadMap: /Game/project/widgets/wining1_2
+[2019.12.19-09.18.29:026][307]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.18.29:027][307]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.18.29:089][307]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2019.12.19-09.18.29:114][307]LogAIModule: Creating AISystem for world wining1_2
+[2019.12.19-09.18.29:115][307]LogLoad: Game class is 'GameMode'
+[2019.12.19-09.18.29:116][307]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_wining1_2.wining1_2 up for play (max tick rate 60) at 2019.12.19-17.18.29
+[2019.12.19-09.18.29:116][307]LogWorld: Bringing up level for play took: 0.001023
+[2019.12.19-09.18.29:117][307]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.12.19-09.18.29:117][307]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.19-09.18.29:117][307]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.19-09.18.29:117][307]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.19-09.18.29:119][307]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.19-09.18.29:119][307]LogLoad: Took 0.092666 seconds to LoadMap(/Game/project/widgets/wining1_2)
+[2019.12.19-09.18.30:642][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.19-09.18.30:759][398]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.19-09.18.30:759][398]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.19-09.18.30:759][398]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap
+[2019.12.19-09.18.30:759][398]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
+[2019.12.19-09.18.30:759][398]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_wining1_2
+[2019.12.19-09.18.30:760][398]LogWorld: UWorld::CleanupWorld for wining1_2, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.18.30:815][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.12.19-09.18.30:815][398]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.18.30:857][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041956s)
+[2019.12.19-09.18.30:858][398]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2019.12.19-09.18.30:858][398]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2019.12.19-09.18.30:858][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.043473s)
+[2019.12.19-09.18.30:858][398]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.19-09.18.30:882][398]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.19-17.18.30
+[2019.12.19-09.18.30:884][398]LogWorld: Bringing up level for play took: 0.025023
+[2019.12.19-09.18.30:887][398]LogLoad: Took 0.128001 seconds to LoadMap(/Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap)
+[2019.12.19-09.18.31:652][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.18.31:652][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.19-09.18.31:652][431]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
+[2019.12.19-09.18.31:699][431]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.19-09.18.31:705][431]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2019.12.19-09.18.31:724][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.19-09.18.31:724][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/project/widgets/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2019.12.19-09.18.31:811][431]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2019.12.19-09.18.31:836][432]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2019.12.19-09.18.41:598][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.12.19-09.18.42:167][638]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerExampleMapBD75E53B420710644B377A8F43E5219A.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/2DSideScrollerExampleMap.umap'
+[2019.12.19-09.18.42:279][638]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerExampleMap_BuiltDaAEF42CFA412A95C01455A5BBD434A134.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/2DSideScrollerExampleMap_BuiltData.uasset'
