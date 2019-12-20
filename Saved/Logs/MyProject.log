@@ -1,4 +1,4 @@
-﻿Log file open, 12/20/19 17:17:46
+﻿Log file open, 12/20/19 17:37:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.193090
+LogStats: Stats thread started at 0.194488
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,665 +157,641 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2019.12.20-09.17.46:501][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2019.12.20-09.17.46:502][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2019.12.20-09.17.46:503][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
-[2019.12.20-09.17.46:504][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.12.20-09.17.46:504][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.12.20-09.17.46:505][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
-[2019.12.20-09.17.46:505][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
-[2019.12.20-09.17.46:509][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.20-09.17.46:509][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:509][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.20-09.17.46:510][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.20-09.17.46:511][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.20-09.17.46:511][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.20-09.17.46:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.12.20-09.17.46:517][  0]LogHAL: Display: Platform has ~ 16 GB [17039765504 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.12.20-09.17.46:517][  0]LogInit: Going up to parent DeviceProfile []
-[2019.12.20-09.17.46:517][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:517][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.12.20-09.17.46:517][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.12.20-09.17.46:517][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:517][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.12.20-09.17.46:517][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:517][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.12.20-09.17.46:518][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.12.20-09.17.46:519][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.12.20-09.17.46:520][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
-[2019.12.20-09.17.46:521][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.12.20-09.17.46:521][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.12.20-09.17.46:521][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.12.20-09.17.46:523][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.12.20-09.17.46:523][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.12.20-09.17.46:523][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
-[2019.12.20-09.17.46:524][  0]LogInit: Computer: DESKTOP-TD65GIG
-[2019.12.20-09.17.46:524][  0]LogInit: User: lenovo
-[2019.12.20-09.17.46:524][  0]LogInit: CPU Page size=4096, Cores=2
-[2019.12.20-09.17.46:524][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.12.20-09.17.46:524][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.12.20-09.17.46:524][  0]LogMemory: Platform Memory Stats for Windows
-[2019.12.20-09.17.46:524][  0]LogMemory: Process Physical Memory: 100.78 MB used, 100.78 MB peak
-[2019.12.20-09.17.46:524][  0]LogMemory: Process Virtual Memory: 99.76 MB used, 99.76 MB peak
-[2019.12.20-09.17.46:524][  0]LogMemory: Physical Memory: 9376.65 MB used,  6873.73 MB free, 16250.39 MB total
-[2019.12.20-09.17.46:524][  0]LogMemory: Virtual Memory: 4666.04 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2019.12.20-09.17.46:528][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.12.20-09.17.46:568][  0]LogInit: Using OS detected language (zh-TW).
-[2019.12.20-09.17.46:568][  0]LogInit: Using OS detected locale (zh-HK).
-[2019.12.20-09.17.46:569][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
-[2019.12.20-09.17.46:971][  0]LogInit: Setting process to per monitor DPI aware
-[2019.12.20-09.17.47:034][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.12.20-09.17.47:035][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.12.20-09.17.47:486][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.20-09.17.47:486][  0]LogD3D11RHI: D3D11 adapters:
-[2019.12.20-09.17.47:576][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
-[2019.12.20-09.17.47:576][  0]LogD3D11RHI:       2020/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.12.20-09.17.47:609][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2019.12.20-09.17.47:609][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.12.20-09.17.47:613][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.12.20-09.17.47:613][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.12.20-09.17.47:613][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.12.20-09.17.47:679][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.12.20-09.17.47:680][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
-[2019.12.20-09.17.47:680][  0]LogWindows: EnumDisplayDevices:
-[2019.12.20-09.17.47:680][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2019.12.20-09.17.47:681][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.12.20-09.17.47:681][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2019.12.20-09.17.47:681][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.12.20-09.17.47:682][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
-[2019.12.20-09.17.47:682][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.12.20-09.17.47:682][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.12.20-09.17.47:682][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
-[2019.12.20-09.17.47:742][  0]LogD3D11RHI: Async texture creation enabled
-[2019.12.20-09.17.47:760][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.12.20-09.17.48:550][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.12.20-09.17.48:572][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.12.20-09.17.48:595][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.12.20-09.17.48:614][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.12.20-09.17.48:637][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.12.20-09.17.48:654][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.12.20-09.17.48:671][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.12.20-09.17.48:693][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.12.20-09.17.48:703][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.12.20-09.17.48:775][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.12.20-09.17.48:775][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.12.20-09.17.48:776][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.12.20-09.17.48:779][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.12.20-09.17.48:818][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.12.20-09.17.48:819][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.12.20-09.17.48:849][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.12.20-09.17.48:849][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.12.20-09.17.48:862][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.12.20-09.17.48:881][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.12.20-09.17.48:895][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.12.20-09.17.48:908][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.12.20-09.17.48:955][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.12.20-09.17.48:955][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.12.20-09.17.48:955][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.12.20-09.17.48:974][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.12.20-09.17.49:087][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/12052/).
-[2019.12.20-09.17.49:087][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/771ACFC44F34880951AE8499B5B23AF1/'.
-[2019.12.20-09.17.49:092][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.12.20-09.17.49:092][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.12.20-09.17.49:092][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.12.20-09.17.50:554][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.12.20-09.17.50:647][  0]LogDerivedDataCache: Loaded boot cache 0.09s 73MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.20-09.17.50:647][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.12.20-09.17.50:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.12.20-09.17.50:648][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.12.20-09.17.50:648][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.20-09.17.50:648][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.12.20-09.17.50:669][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.12.20-09.17.50:670][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.12.20-09.17.50:670][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.12.20-09.17.50:674][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.12.20-09.17.50:674][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.12.20-09.17.50:674][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.12.20-09.17.50:728][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.12.20-09.17.50:734][  0]LogSlate: Using FreeType 2.6.0
-[2019.12.20-09.17.50:735][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.12.20-09.17.50:842][  0]LogAssetRegistry: FAssetRegistry took 0.0045 seconds to start up
-[2019.12.20-09.17.51:499][  0]LogInit: Selected Device Profile: [Windows]
-[2019.12.20-09.17.51:867][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.12.20-09.17.51:867][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.12.20-09.17.51:867][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.12.20-09.17.51:867][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.12.20-09.17.51:867][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.12.20-09.17.51:887][  0]LogNetVersion: MyProject 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2896792207)
-[2019.12.20-09.17.52:876][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.113028 seconds
-[2019.12.20-09.17.52:890][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.12.20-09.17.52:890][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.12.20-09.17.52:890][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.12.20-09.17.54:684][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.12.20-09.17.54:689][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.12.20-09.17.54:788][  0]SourceControl: Source control is disabled
-[2019.12.20-09.17.54:788][  0]SourceControl: Source control is disabled
-[2019.12.20-09.17.54:791][  0]SourceControl: Source control is disabled
-[2019.12.20-09.17.54:793][  0]SourceControl: Source control is disabled
-[2019.12.20-09.17.54:956][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.12.20-09.17.55:145][  0]LogOcInput: OculusInput pre-init called
-[2019.12.20-09.17.55:157][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.12.20-09.17.55:157][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.12.20-09.17.55:319][  0]LogEngine: Initializing Engine...
-[2019.12.20-09.17.55:321][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.12.20-09.17.55:323][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.12.20-09.17.55:804][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.12.20-09.17.55:839][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.12.20-09.17.55:863][  0]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.20-09.17.55:899][  0]LogInit: FAudioDevice initialized.
-[2019.12.20-09.17.55:899][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.12.20-09.17.55:976][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.12.20-09.17.55:989][  0]LogInit: Texture streaming: Enabled
-[2019.12.20-09.17.56:028][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.12.20-09.17.56:159][  0]LogInit: Transaction tracking system initialized
-[2019.12.20-09.17.56:236][  0]BlueprintLog: New page: Editor Load
-[2019.12.20-09.17.56:403][  0]LocalizationService: Localization service is disabled
-[2019.12.20-09.17.56:981][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Content/' took 0.02s
-[2019.12.20-09.17.56:982][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.12.20-09.17.56:982][  0]LogCook: Display: Mobile HDR setting 1
-[2019.12.20-09.17.57:376][  0]SourceControl: Source control is disabled
-[2019.12.20-09.17.57:377][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.12.20-09.17.57:387][  0]LightingResults: New page: Lighting Build
-[2019.12.20-09.17.57:393][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.17.57:394][  0]MapCheck: New page: Map Check
-[2019.12.20-09.17.57:394][  0]LightingResults: New page: Lighting Build
-[2019.12.20-09.17.57:437][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
-[2019.12.20-09.17.57:548][  0]LogAIModule: Creating AISystem for world mainmenu
-[2019.12.20-09.17.57:564][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.12.20-09.17.57:606][  0]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
-[2019.12.20-09.17.57:607][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.12.20-09.17.57:607][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.334ms to complete.
-[2019.12.20-09.17.57:607][  0]LogFileHelpers: Loading map 'mainmenu' took 0.231
-[2019.12.20-09.17.57:827][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.17.57:846][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.17.57:864][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.17.57:883][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.17.57:905][  0]LogCollectionManager: Loaded 0 collections in 0.004417 seconds
-[2019.12.20-09.17.57:919][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.00s
-[2019.12.20-09.17.57:919][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Content/Developers/lenovo/Collections/' took 0.00s
-[2019.12.20-09.17.57:919][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.00s
-[2019.12.20-09.17.57:919][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2019.12.20-09.17.57:938][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 2863 classes and 680 folders.
-[2019.12.20-09.17.57:956][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.12.20-09.17.58:521][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.12.20-09.17.58:534][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.12.20-09.17.58:666][  0]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.12.20-09.17.58:670][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.12.20-09.17.58:695][  0]LogSlate: Took 0.014842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.12.20-09.17.58:966][  0]LogRenderer: Reallocating scene render targets to support 952x376 Format 10 NumSamples 1 (Frame:1).
-[2019.12.20-09.17.59:137][  0]LogSlate: Took 0.013091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.12.20-09.17.59:265][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.12.20-09.17.59:265][  0]LogLoad: (Engine Initialization) Total time: 15.44 seconds
-[2019.12.20-09.17.59:265][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.12.20-09.17.59:335][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.12.20-09.17.59:405][  0]LogSlate: Took 0.012699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.20-09.18.00:133][  9]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2019.12.20-09.18.00:187][ 10]LogAssetRegistry: Asset discovery search completed in 9.3463 seconds
-[2019.12.20-09.18.00:196][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2019.12.20-09.18.05:437][ 86]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.12.20-09.18.05:485][ 86]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\lenovo\Downloads\Metal_Gear_Solid_-_Snake_death_scream_sound_effect_Trim.wav)
-[2019.12.20-09.18.05:539][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.12.20-09.18.27:226][ 56]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/project/charactor/2DSideScrollerCharacter.2DSideScrollerCharacter
-[2019.12.20-09.18.28:071][ 56]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0032 seconds. Added 121 classes and 0 folders.
-[2019.12.20-09.18.30:141][ 56]LogSlate: Took 0.013053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.12.20-09.18.32:031][101]LogSlate: Took 0.014076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.12.20-09.19.00:346][ 10]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.20-09.19.00:414][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.00:415][ 10]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.12.20-09.19.00:417][ 10]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerCharacter before play...
-[2019.12.20-09.19.00:924][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
-[2019.12.20-09.19.00:924][ 10]LogPlayLevel: PlayLevel: Blueprint regeneration took 509 ms (1 blueprints)
-[2019.12.20-09.19.00:924][ 10]PIE: New page: PIE session: mainmenu (2019年12月21日上午1:19:00)
-[2019.12.20-09.19.00:925][ 10]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2019.12.20-09.19.00:929][ 10]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_mainmenu
-[2019.12.20-09.19.00:932][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002880s)
-[2019.12.20-09.19.00:934][ 10]LogAIModule: Creating AISystem for world mainmenu
-[2019.12.20-09.19.00:934][ 10]LogPlayLevel: PIE: World Init took: (0.001970s)
-[2019.12.20-09.19.00:934][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/mainmenu.mainmenu to /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu (0.005398s)
-[2019.12.20-09.19.00:986][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
-[2019.12.20-09.19.00:992][ 10]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.20-09.19.01:019][ 10]LogInit: FAudioDevice initialized.
-[2019.12.20-09.19.01:028][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.19.01:030][ 10]LogLoad: Game class is 'GameMode'
-[2019.12.20-09.19.01:032][ 10]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2019.12.20-17.19.01
-[2019.12.20-09.19.01:033][ 10]LogWorld: Bringing up level for play took: 0.000852
-[2019.12.20-09.19.01:033][ 10]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2019.12.20-09.19.01:052][ 10]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
-[2019.12.20-09.19.01:052][ 10]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.01:052][ 10]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.01:052][ 10]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.01:057][ 10]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(723)]!
-[2019.12.20-09.19.01:058][ 10]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.01:065][ 10]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_mainmenu 0.359
-[2019.12.20-09.19.01:065][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.01:525][ 11]LogRenderer: Reallocating scene render targets to support 1280x716 Format 10 NumSamples 1 (Frame:1).
-[2019.12.20-09.19.03:112][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.20-09.19.03:746][ 54]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2019.12.20-09.19.03:746][ 54]LogGameState: Match State Changed from InProgress to LeavingMap
-[2019.12.20-09.19.03:746][ 54]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap
-[2019.12.20-09.19.03:747][ 54]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
-[2019.12.20-09.19.03:747][ 54]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_mainmenu
-[2019.12.20-09.19.03:748][ 54]LogWorld: UWorld::CleanupWorld for mainmenu, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.03:860][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
-[2019.12.20-09.19.04:398][ 54]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2019.12.20-09.19.04:398][ 54]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.12.20-09.19.04:784][ 54]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.20-17.19.04
-[2019.12.20-09.19.04:788][ 54]LogWorld: Bringing up level for play took: 0.389127
-[2019.12.20-09.19.04:791][ 54]LogLoad: Took 1.044528 seconds to LoadMap(/Game/project/widgets/2DSideScrollerExampleMap)
-[2019.12.20-09.19.08:440][151]Cmd: RestartLevel
-[2019.12.20-09.19.08:478][152]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap?restart
-[2019.12.20-09.19.08:478][152]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
-[2019.12.20-09.19.08:478][152]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
-[2019.12.20-09.19.08:480][152]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.08:587][152]LogUObjectHash: Compacting FUObjectHashTables data took  10.17ms
-[2019.12.20-09.19.08:745][152]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2019.12.20-09.19.08:746][152]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.12.20-09.19.09:095][152]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.20-17.19.09
-[2019.12.20-09.19.09:099][152]LogWorld: Bringing up level for play took: 0.351077
-[2019.12.20-09.19.09:102][152]LogLoad: Took 0.624360 seconds to LoadMap(/Game/project/widgets/2DSideScrollerExampleMap)
-[2019.12.20-09.19.12:026][231]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.12:026][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.19.12:026][231]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
-[2019.12.20-09.19.12:086][231]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.20-09.19.12:092][231]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.12:107][231]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.20-09.19.12:108][231]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.12:245][231]LogUObjectHash: Compacting FUObjectHashTables data took   6.24ms
-[2019.12.20-09.19.12:290][232]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.12.20-09.19.29:747][777]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.12.20-09.19.29:809][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.29:809][777]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.12.20-09.19.29:855][777]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerCharacter before play...
-[2019.12.20-09.19.30:470][777]LogUObjectHash: Compacting FUObjectHashTables data took   8.93ms
-[2019.12.20-09.19.30:470][777]LogPlayLevel: PlayLevel: Blueprint regeneration took 661 ms (1 blueprints)
-[2019.12.20-09.19.30:470][777]PIE: New page: PIE session: mainmenu (2019年12月21日上午1:19:30)
-[2019.12.20-09.19.30:473][777]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_mainmenu
-[2019.12.20-09.19.30:475][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002362s)
-[2019.12.20-09.19.30:477][777]LogAIModule: Creating AISystem for world mainmenu
-[2019.12.20-09.19.30:477][777]LogPlayLevel: PIE: World Init took: (0.001693s)
-[2019.12.20-09.19.30:477][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/mainmenu.mainmenu to /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu (0.004514s)
-[2019.12.20-09.19.30:547][777]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
-[2019.12.20-09.19.30:553][777]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.12.20-09.19.30:575][777]LogInit: FAudioDevice initialized.
-[2019.12.20-09.19.30:588][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.19.30:589][777]LogLoad: Game class is 'GameMode'
-[2019.12.20-09.19.30:590][777]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2019.12.20-17.19.30
-[2019.12.20-09.19.30:590][777]LogWorld: Bringing up level for play took: 0.000717
-[2019.12.20-09.19.30:591][777]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2019.12.20-09.19.30:593][777]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.30:594][777]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.30:594][777]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.30:598][777]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(723)]!
-[2019.12.20-09.19.30:598][777]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.30:602][777]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_mainmenu -0.105
-[2019.12.20-09.19.30:602][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.31:869][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.20-09.19.32:503][814]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2019.12.20-09.19.32:503][814]LogGameState: Match State Changed from InProgress to LeavingMap
-[2019.12.20-09.19.32:503][814]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap
-[2019.12.20-09.19.32:504][814]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
-[2019.12.20-09.19.32:504][814]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_mainmenu
-[2019.12.20-09.19.32:504][814]LogWorld: UWorld::CleanupWorld for mainmenu, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.32:582][814]LogUObjectHash: Compacting FUObjectHashTables data took   6.42ms
-[2019.12.20-09.19.32:761][814]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2019.12.20-09.19.32:761][814]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.12.20-09.19.33:118][814]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.20-17.19.33
-[2019.12.20-09.19.33:122][814]LogWorld: Bringing up level for play took: 0.360091
-[2019.12.20-09.19.33:130][814]LogLoad: Took 0.626097 seconds to LoadMap(/Game/project/widgets/2DSideScrollerExampleMap)
-[2019.12.20-09.19.37:495][926]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Metal_Gear_Solid_-_Snake_death_scream_sound_effect_Trim...
-[2019.12.20-09.19.37:659][926]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 528380 while cooking SoundWave /Game/project/widgets/Metal_Gear_Solid_-_Snake_death_scream_sound_effect_Trim.Metal_Gear_Solid_-_Snake_death_scream_sound_effect_Trim.
-[2019.12.20-09.19.38:456][947]Cmd: RestartLevel
-[2019.12.20-09.19.38:501][948]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap?restart
-[2019.12.20-09.19.38:501][948]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
-[2019.12.20-09.19.38:501][948]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
-[2019.12.20-09.19.38:502][948]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.38:602][948]LogUObjectHash: Compacting FUObjectHashTables data took   6.74ms
-[2019.12.20-09.19.38:794][948]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2019.12.20-09.19.38:794][948]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.12.20-09.19.39:205][948]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.20-17.19.39
-[2019.12.20-09.19.39:211][948]LogWorld: Bringing up level for play took: 0.415607
-[2019.12.20-09.19.39:218][948]LogLoad: Took 0.716838 seconds to LoadMap(/Game/project/widgets/2DSideScrollerExampleMap)
-[2019.12.20-09.19.42:199][ 26]Cmd: RestartLevel
-[2019.12.20-09.19.42:238][ 27]LogNet: Browse: /Game/project/widgets/2DSideScrollerExampleMap?restart
-[2019.12.20-09.19.42:238][ 27]LogLoad: LoadMap: /Game/project/widgets/2DSideScrollerExampleMap
-[2019.12.20-09.19.42:238][ 27]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
-[2019.12.20-09.19.42:239][ 27]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.42:350][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   9.81ms
-[2019.12.20-09.19.42:528][ 27]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2019.12.20-09.19.42:528][ 27]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2019.12.20-09.19.42:916][ 27]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2019.12.20-17.19.42
-[2019.12.20-09.19.42:919][ 27]LogWorld: Bringing up level for play took: 0.390341
-[2019.12.20-09.19.42:922][ 27]LogLoad: Took 0.684734 seconds to LoadMap(/Game/project/widgets/2DSideScrollerExampleMap)
-[2019.12.20-09.19.48:983][187]LogNet: Browse: /Game/project/widgets/lose
-[2019.12.20-09.19.48:983][187]LogLoad: LoadMap: /Game/project/widgets/lose
-[2019.12.20-09.19.48:983][187]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_2DSideScrollerExampleMap
-[2019.12.20-09.19.48:984][187]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.49:095][187]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
-[2019.12.20-09.19.49:150][187]LogAIModule: Creating AISystem for world lose
-[2019.12.20-09.19.49:150][187]LogLoad: Game class is 'GameMode'
-[2019.12.20-09.19.49:151][187]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_lose.lose up for play (max tick rate 60) at 2019.12.20-17.19.49
-[2019.12.20-09.19.49:152][187]LogWorld: Bringing up level for play took: 0.001203
-[2019.12.20-09.19.49:153][187]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.12.20-09.19.49:154][187]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.49:154][187]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.49:154][187]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.49:155][187]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.49:156][187]LogLoad: Took 0.172113 seconds to LoadMap(/Game/project/widgets/lose)
-[2019.12.20-09.19.52:716][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.12.20-09.19.53:497][308]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
-[2019.12.20-09.19.53:497][308]LogGameState: Match State Changed from InProgress to LeavingMap
-[2019.12.20-09.19.53:498][308]LogNet: Browse: /Game/project/widgets/mainmenu
-[2019.12.20-09.19.53:498][308]LogLoad: LoadMap: /Game/project/widgets/mainmenu
-[2019.12.20-09.19.53:498][308]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_lose
-[2019.12.20-09.19.53:498][308]LogWorld: UWorld::CleanupWorld for lose, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.53:576][308]LogUObjectHash: Compacting FUObjectHashTables data took   7.98ms
-[2019.12.20-09.19.53:576][308]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_mainmenu
-[2019.12.20-09.19.53:579][308]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002559s)
-[2019.12.20-09.19.53:580][308]LogAIModule: Creating AISystem for world mainmenu
-[2019.12.20-09.19.53:581][308]LogPlayLevel: PIE: World Init took: (0.001962s)
-[2019.12.20-09.19.53:581][308]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/mainmenu.mainmenu to /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu (0.004812s)
-[2019.12.20-09.19.53:581][308]LogLoad: Game class is 'GameMode'
-[2019.12.20-09.19.53:585][308]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2019.12.20-17.19.53
-[2019.12.20-09.19.53:586][308]LogWorld: Bringing up level for play took: 0.000786
-[2019.12.20-09.19.53:586][308]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.12.20-09.19.53:587][308]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.53:587][308]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2019.12.20-09.19.53:587][308]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.53:590][308]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(723)]!
-[2019.12.20-09.19.53:591][308]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2019.12.20-09.19.53:591][308]LogLoad: Took 0.092932 seconds to LoadMap(/Game/project/widgets/UEDPIE_0_mainmenu)
-[2019.12.20-09.19.54:345][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.54:346][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.12.20-09.19.54:347][327]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_mainmenu
-[2019.12.20-09.19.54:418][327]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.12.20-09.19.54:427][327]LogWorld: UWorld::CleanupWorld for mainmenu, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.54:436][327]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.12.20-09.19.54:436][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
-[2019.12.20-09.19.54:529][327]LogUObjectHash: Compacting FUObjectHashTables data took   6.90ms
-[2019.12.20-09.19.54:589][328]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2019.12.20-09.19.55:732][352]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerCharacter5E5E36CD4230CC3BC37D0A811B52AF2C.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/2DSideScrollerCharacter.uasset'
-[2019.12.20-09.19.56:988][395]LogSlate: Window '2DSideScrollerCharacter' being destroyed
-[2019.12.20-09.19.56:998][395]LogSlate: Window '2DSideScrollerCharacter' being destroyed
-[2019.12.20-09.19.56:999][395]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.12.20-09.19.58:036][435]LogUObjectHash: Compacting FUObjectHashTables data took   7.84ms
-[2019.12.20-09.19.58:532][435]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/mainmenuFF4E90634B9CCC04D20A0688AEE7A4DF.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/mainmenu.umap'
+[2019.12.20-09.37.40:341][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.20-09.37.40:341][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.20-09.37.40:341][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2019.12.20-09.37.40:341][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.20-09.37.40:341][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2019.12.20-09.37.40:342][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2019.12.20-09.37.40:343][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2019.12.20-09.37.40:344][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2019.12.20-09.37.40:345][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.20-09.37.40:345][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.20-09.37.40:346][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.20-09.37.40:346][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.20-09.37.40:346][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.20-09.37.40:346][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.20-09.37.40:346][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2019.12.20-09.37.40:346][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2019.12.20-09.37.40:350][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:350][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.20-09.37.40:350][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.20-09.37.40:351][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.20-09.37.40:352][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.20-09.37.40:353][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.20-09.37.40:353][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.20-09.37.40:353][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.20-09.37.40:359][  0]LogHAL: Display: Platform has ~ 16 GB [17039765504 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.20-09.37.40:359][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.20-09.37.40:359][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.20-09.37.40:359][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.20-09.37.40:360][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.20-09.37.40:361][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.20-09.37.40:362][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Config/Windows/Engine.ini]
+[2019.12.20-09.37.40:363][  0]LogInit: Computer: DESKTOP-TD65GIG
+[2019.12.20-09.37.40:363][  0]LogInit: User: lenovo
+[2019.12.20-09.37.40:363][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.12.20-09.37.40:363][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.20-09.37.40:363][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.20-09.37.40:363][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.20-09.37.40:363][  0]LogMemory: Process Physical Memory: 100.85 MB used, 100.85 MB peak
+[2019.12.20-09.37.40:363][  0]LogMemory: Process Virtual Memory: 99.80 MB used, 99.80 MB peak
+[2019.12.20-09.37.40:363][  0]LogMemory: Physical Memory: 9203.50 MB used,  7046.89 MB free, 16250.39 MB total
+[2019.12.20-09.37.40:363][  0]LogMemory: Virtual Memory: 4666.04 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.12.20-09.37.40:367][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.12.20-09.37.40:411][  0]LogInit: Using OS detected language (zh-TW).
+[2019.12.20-09.37.40:411][  0]LogInit: Using OS detected locale (zh-HK).
+[2019.12.20-09.37.40:412][  0]LogTextLocalizationManager: No localization for 'zh-TW' exists, so 'en' will be used for the language.
+[2019.12.20-09.37.40:831][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.20-09.37.40:894][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.20-09.37.40:894][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.20-09.37.41:372][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.20-09.37.41:372][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.20-09.37.41:456][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2019.12.20-09.37.41:456][  0]LogD3D11RHI:       2020/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.20-09.37.41:492][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2019.12.20-09.37.41:492][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.20-09.37.41:496][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.20-09.37.41:496][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.20-09.37.41:496][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.20-09.37.41:560][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.20-09.37.41:560][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2019.12.20-09.37.41:560][  0]LogWindows: EnumDisplayDevices:
+[2019.12.20-09.37.41:560][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2019.12.20-09.37.41:561][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.12.20-09.37.41:561][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.12.20-09.37.41:561][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.20-09.37.41:562][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2019.12.20-09.37.41:562][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.20-09.37.41:562][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.20-09.37.41:562][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2019.12.20-09.37.41:619][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.20-09.37.41:636][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.20-09.37.42:304][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.20-09.37.42:325][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.20-09.37.42:349][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.20-09.37.42:369][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.20-09.37.42:391][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.20-09.37.42:412][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.20-09.37.42:431][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.20-09.37.42:458][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.20-09.37.42:468][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.20-09.37.42:553][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.20-09.37.42:553][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.20-09.37.42:553][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.20-09.37.42:553][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.20-09.37.42:553][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.20-09.37.42:553][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.20-09.37.42:553][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.20-09.37.42:554][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.20-09.37.42:558][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.20-09.37.42:602][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.20-09.37.42:602][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.20-09.37.42:633][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.20-09.37.42:633][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.20-09.37.42:650][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.20-09.37.42:664][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.20-09.37.42:683][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.20-09.37.42:700][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.20-09.37.42:756][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.20-09.37.42:756][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.20-09.37.42:756][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.20-09.37.42:781][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.20-09.37.42:898][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/1016/).
+[2019.12.20-09.37.42:898][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lenovo/AppData/Local/Temp/UnrealShaderWorkingDir/93D93631405C2B55BF5F23ADD1E9B161/'.
+[2019.12.20-09.37.42:903][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.20-09.37.42:904][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.20-09.37.42:904][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.20-09.37.44:220][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.20-09.37.44:303][  0]LogDerivedDataCache: Loaded boot cache 0.08s 73MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.20-09.37.44:304][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.12.20-09.37.44:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.20-09.37.44:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.20-09.37.44:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.20-09.37.44:304][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.20-09.37.44:324][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.20-09.37.44:324][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.20-09.37.44:324][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.20-09.37.44:326][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lenovo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.20-09.37.44:326][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.20-09.37.44:326][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.20-09.37.44:372][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.20-09.37.44:376][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.20-09.37.44:377][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.20-09.37.44:485][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2019.12.20-09.37.45:139][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.20-09.37.45:491][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.20-09.37.45:491][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.20-09.37.45:491][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.20-09.37.45:491][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.20-09.37.45:491][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.20-09.37.45:511][  0]LogNetVersion: MyProject 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 2896792207)
+[2019.12.20-09.37.46:454][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.087909 seconds
+[2019.12.20-09.37.46:473][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.12.20-09.37.46:473][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.12.20-09.37.46:473][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.20-09.37.48:237][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.20-09.37.48:241][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.20-09.37.48:348][  0]SourceControl: Source control is disabled
+[2019.12.20-09.37.48:348][  0]SourceControl: Source control is disabled
+[2019.12.20-09.37.48:351][  0]SourceControl: Source control is disabled
+[2019.12.20-09.37.48:353][  0]SourceControl: Source control is disabled
+[2019.12.20-09.37.48:520][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.20-09.37.48:722][  0]LogOcInput: OculusInput pre-init called
+[2019.12.20-09.37.48:732][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.12.20-09.37.48:733][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.12.20-09.37.48:874][  0]LogEngine: Initializing Engine...
+[2019.12.20-09.37.48:876][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.20-09.37.48:878][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.20-09.37.49:346][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.20-09.37.49:379][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.20-09.37.49:401][  0]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.20-09.37.49:439][  0]LogInit: FAudioDevice initialized.
+[2019.12.20-09.37.49:439][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.20-09.37.49:523][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/lenovo/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.12.20-09.37.49:540][  0]LogInit: Texture streaming: Enabled
+[2019.12.20-09.37.49:582][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.20-09.37.49:729][  0]LogInit: Transaction tracking system initialized
+[2019.12.20-09.37.49:802][  0]BlueprintLog: New page: Editor Load
+[2019.12.20-09.37.49:962][  0]LocalizationService: Localization service is disabled
+[2019.12.20-09.37.50:491][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Content/' took 0.01s
+[2019.12.20-09.37.50:491][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.20-09.37.50:491][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.20-09.37.50:893][  0]SourceControl: Source control is disabled
+[2019.12.20-09.37.50:893][  0]Cmd: MAP LOAD FILE="../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/mainmenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.20-09.37.50:893][  0]LightingResults: New page: Lighting Build
+[2019.12.20-09.37.50:899][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.12.20-09.37.50:900][  0]MapCheck: New page: Map Check
+[2019.12.20-09.37.50:900][  0]LightingResults: New page: Lighting Build
+[2019.12.20-09.37.50:934][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2019.12.20-09.37.51:024][  0]LogAIModule: Creating AISystem for world mainmenu
+[2019.12.20-09.37.51:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.20-09.37.51:069][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2019.12.20-09.37.51:070][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.20-09.37.51:070][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.231ms to complete.
+[2019.12.20-09.37.51:070][  0]LogFileHelpers: Loading map 'mainmenu' took 0.177
+[2019.12.20-09.37.51:273][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.37.51:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.37.51:306][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.37.51:327][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.37.51:341][  0]LogCollectionManager: Loaded 0 collections in 0.004220 seconds
+[2019.12.20-09.37.51:351][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.00s
+[2019.12.20-09.37.51:351][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Content/Developers/lenovo/Collections/' took 0.00s
+[2019.12.20-09.37.51:351][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lenovo/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.00s
+[2019.12.20-09.37.51:351][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2019.12.20-09.37.51:372][  0]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 2863 classes and 680 folders.
+[2019.12.20-09.37.51:385][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.20-09.37.51:469][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.20-09.37.51:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.12.20-09.37.51:614][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.20-09.37.51:618][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.20-09.37.51:631][  0]LogSlate: Took 0.000559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.20-09.37.51:792][  0]LogRenderer: Reallocating scene render targets to support 952x376 Format 10 NumSamples 1 (Frame:1).
+[2019.12.20-09.37.51:959][  0]LogSlate: Took 0.002399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.12.20-09.37.52:075][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.20-09.37.52:076][  0]LogLoad: (Engine Initialization) Total time: 14.04 seconds
+[2019.12.20-09.37.52:076][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.20-09.37.52:154][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.20-09.37.52:196][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.20-09.37.52:269][  1]LogAssetRegistry: Asset discovery search completed in 7.7859 seconds
+[2019.12.20-09.37.52:277][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2019.12.20-09.37.52:277][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000099 seconds (updated 0 objects)
+[2019.12.20-09.37.54:312][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.20-09.38.00:389][257]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.20-09.38.00:420][257]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\lenovo\Downloads\y2mate.com_-_70_cctv_2PzUQJOc6kE_360p_Trim.wav)
+[2019.12.20-09.38.11:832][740]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/project/charactor/2DSideScrollerCharacter.2DSideScrollerCharacter
+[2019.12.20-09.38.12:505][740]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.12.20-09.38.14:556][740]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.20-09.38.14:997][741]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.20-09.38.47:627][951]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.12.20-09.38.48:095][951]LogUObjectHash: Compacting FUObjectHashTables data took   6.42ms
+[2019.12.20-09.38.48:821][972]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.20-09.38.48:882][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.38.48:882][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.20-09.38.48:883][972]PIE: New page: PIE session: mainmenu (2019年12月21日上午1:38:48)
+[2019.12.20-09.38.48:884][972]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2019.12.20-09.38.48:886][972]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_mainmenu
+[2019.12.20-09.38.48:889][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002354s)
+[2019.12.20-09.38.48:891][972]LogAIModule: Creating AISystem for world mainmenu
+[2019.12.20-09.38.48:891][972]LogPlayLevel: PIE: World Init took: (0.002267s)
+[2019.12.20-09.38.48:891][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/mainmenu.mainmenu to /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu (0.005053s)
+[2019.12.20-09.38.48:942][972]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2019.12.20-09.38.48:946][972]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.20-09.38.48:972][972]LogInit: FAudioDevice initialized.
+[2019.12.20-09.38.48:980][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.38.48:982][972]LogLoad: Game class is 'GameMode'
+[2019.12.20-09.38.48:984][972]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2019.12.20-17.38.48
+[2019.12.20-09.38.48:985][972]LogWorld: Bringing up level for play took: 0.000685
+[2019.12.20-09.38.48:985][972]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2019.12.20-09.38.49:011][972]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.12.20-09.38.49:012][972]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.20-09.38.49:012][972]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.20-09.38.49:012][972]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.20-09.38.49:016][972]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(723)]!
+[2019.12.20-09.38.49:016][972]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.20-09.38.49:034][972]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_mainmenu 0.328
+[2019.12.20-09.38.49:034][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.38.49:114][973]LogRenderer: Reallocating scene render targets to support 1280x716 Format 10 NumSamples 1 (Frame:1).
+[2019.12.20-09.38.50:329][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.20-09.38.51:018][ 14]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.20-09.38.51:018][ 14]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.20-09.38.51:019][ 14]LogNet: Browse: /Game/project/widgets/chapter1
+[2019.12.20-09.38.51:019][ 14]LogLoad: LoadMap: /Game/project/widgets/chapter1
+[2019.12.20-09.38.51:019][ 14]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_mainmenu
+[2019.12.20-09.38.51:020][ 14]LogWorld: UWorld::CleanupWorld for mainmenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.20-09.38.51:142][ 14]LogUObjectHash: Compacting FUObjectHashTables data took  10.93ms
+[2019.12.20-09.38.51:576][ 14]LogAIModule: Creating AISystem for world chapter1
+[2019.12.20-09.38.51:576][ 14]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.20-09.38.52:133][ 14]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_chapter1.chapter1 up for play (max tick rate 60) at 2019.12.20-17.38.52
+[2019.12.20-09.38.52:139][ 14]LogWorld: Bringing up level for play took: 0.561637
+[2019.12.20-09.38.52:143][ 14]LogLoad: Took 1.124110 seconds to LoadMap(/Game/project/widgets/chapter1)
+[2019.12.20-09.38.57:427][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.38.57:428][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.38.57:428][193]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_chapter1
+[2019.12.20-09.38.57:495][193]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.20-09.38.57:505][193]LogWorld: UWorld::CleanupWorld for chapter1, bSessionEnded=true, bCleanupResources=true
+[2019.12.20-09.38.57:530][193]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.20-09.38.57:531][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.38.57:680][193]LogUObjectHash: Compacting FUObjectHashTables data took   8.30ms
+[2019.12.20-09.38.57:735][194]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.12.20-09.39.14:638][584]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.20-09.39.14:708][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.39.14:708][584]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.20-09.39.14:755][584]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerCharacter before play...
+[2019.12.20-09.39.15:293][584]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2019.12.20-09.39.15:294][584]LogPlayLevel: PlayLevel: Blueprint regeneration took 585 ms (1 blueprints)
+[2019.12.20-09.39.15:294][584]PIE: New page: PIE session: mainmenu (2019年12月21日上午1:39:15)
+[2019.12.20-09.39.15:300][584]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_mainmenu
+[2019.12.20-09.39.15:302][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002281s)
+[2019.12.20-09.39.15:303][584]LogAIModule: Creating AISystem for world mainmenu
+[2019.12.20-09.39.15:304][584]LogPlayLevel: PIE: World Init took: (0.001761s)
+[2019.12.20-09.39.15:304][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/mainmenu.mainmenu to /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu (0.004291s)
+[2019.12.20-09.39.15:365][584]LogUObjectHash: Compacting FUObjectHashTables data took   4.72ms
+[2019.12.20-09.39.15:373][584]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.20-09.39.15:394][584]LogInit: FAudioDevice initialized.
+[2019.12.20-09.39.15:403][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.39.15:403][584]LogLoad: Game class is 'GameMode'
+[2019.12.20-09.39.15:404][584]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2019.12.20-17.39.15
+[2019.12.20-09.39.15:405][584]LogWorld: Bringing up level for play took: 0.000767
+[2019.12.20-09.39.15:405][584]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2019.12.20-09.39.15:408][584]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.20-09.39.15:408][584]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.20-09.39.15:408][584]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.20-09.39.15:412][584]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(723)]!
+[2019.12.20-09.39.15:412][584]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.20-09.39.15:416][584]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_mainmenu 0.71
+[2019.12.20-09.39.15:417][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.39.16:498][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.20-09.39.17:122][623]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.20-09.39.17:122][623]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.20-09.39.17:122][623]LogNet: Browse: /Game/project/widgets/chapter1
+[2019.12.20-09.39.17:122][623]LogLoad: LoadMap: /Game/project/widgets/chapter1
+[2019.12.20-09.39.17:122][623]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_mainmenu
+[2019.12.20-09.39.17:123][623]LogWorld: UWorld::CleanupWorld for mainmenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.20-09.39.17:204][623]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2019.12.20-09.39.17:448][623]LogAIModule: Creating AISystem for world chapter1
+[2019.12.20-09.39.17:448][623]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.20-09.39.18:004][623]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_chapter1.chapter1 up for play (max tick rate 60) at 2019.12.20-17.39.18
+[2019.12.20-09.39.18:014][623]LogWorld: Bringing up level for play took: 0.564797
+[2019.12.20-09.39.18:018][623]LogLoad: Took 0.895851 seconds to LoadMap(/Game/project/widgets/chapter1)
+[2019.12.20-09.39.18:349][633]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave y2mate_com_-_70_cctv_2PzUQJOc6kE_360p_Trim...
+[2019.12.20-09.39.18:413][633]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 192508 while cooking SoundWave /Game/project/widgets/y2mate_com_-_70_cctv_2PzUQJOc6kE_360p_Trim.y2mate_com_-_70_cctv_2PzUQJOc6kE_360p_Trim.
+[2019.12.20-09.39.30:170][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.39.30:170][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.39.30:171][ 20]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_chapter1
+[2019.12.20-09.39.30:239][ 20]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.20-09.39.30:248][ 20]LogWorld: UWorld::CleanupWorld for chapter1, bSessionEnded=true, bCleanupResources=true
+[2019.12.20-09.39.30:273][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.20-09.39.30:273][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.39.30:436][ 20]LogUObjectHash: Compacting FUObjectHashTables data took  12.46ms
+[2019.12.20-09.39.30:468][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.12.20-09.39.49:683][794]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.12.20-09.39.49:754][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.39.49:754][794]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.12.20-09.39.49:778][794]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerCharacter before play...
+[2019.12.20-09.39.50:352][794]LogUObjectHash: Compacting FUObjectHashTables data took  10.83ms
+[2019.12.20-09.39.50:353][794]LogPlayLevel: PlayLevel: Blueprint regeneration took 598 ms (1 blueprints)
+[2019.12.20-09.39.50:353][794]PIE: New page: PIE session: mainmenu (2019年12月21日上午1:39:50)
+[2019.12.20-09.39.50:356][794]LogPlayLevel: Creating play world package: /Game/project/widgets/UEDPIE_0_mainmenu
+[2019.12.20-09.39.50:358][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001498s)
+[2019.12.20-09.39.50:359][794]LogAIModule: Creating AISystem for world mainmenu
+[2019.12.20-09.39.50:359][794]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2019.12.20-09.39.50:359][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/project/widgets/mainmenu.mainmenu to /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu (0.003033s)
+[2019.12.20-09.39.50:426][794]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2019.12.20-09.39.50:431][794]LogInit: XAudio2 using '喇叭 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.20-09.39.50:455][794]LogInit: FAudioDevice initialized.
+[2019.12.20-09.39.50:463][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.39.50:464][794]LogLoad: Game class is 'GameMode'
+[2019.12.20-09.39.50:465][794]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_mainmenu.mainmenu up for play (max tick rate 60) at 2019.12.20-17.39.50
+[2019.12.20-09.39.50:465][794]LogWorld: Bringing up level for play took: 0.000654
+[2019.12.20-09.39.50:465][794]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2019.12.20-09.39.50:468][794]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.20-09.39.50:468][794]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.12.20-09.39.50:468][794]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.12.20-09.39.50:472][794]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(723)]!
+[2019.12.20-09.39.50:472][794]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.12.20-09.39.50:476][794]PIE: Play in editor start time for /Game/project/widgets/UEDPIE_0_mainmenu -0.23
+[2019.12.20-09.39.50:477][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.39.51:521][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.20-09.39.52:162][838]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2019.12.20-09.39.52:162][838]LogGameState: Match State Changed from InProgress to LeavingMap
+[2019.12.20-09.39.52:163][838]LogNet: Browse: /Game/project/widgets/chapter1
+[2019.12.20-09.39.52:163][838]LogLoad: LoadMap: /Game/project/widgets/chapter1
+[2019.12.20-09.39.52:163][838]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_mainmenu
+[2019.12.20-09.39.52:163][838]LogWorld: UWorld::CleanupWorld for mainmenu, bSessionEnded=true, bCleanupResources=true
+[2019.12.20-09.39.52:240][838]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2019.12.20-09.39.52:538][838]LogAIModule: Creating AISystem for world chapter1
+[2019.12.20-09.39.52:539][838]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2019.12.20-09.39.53:100][838]LogWorld: Bringing World /Game/project/widgets/UEDPIE_0_chapter1.chapter1 up for play (max tick rate 60) at 2019.12.20-17.39.53
+[2019.12.20-09.39.53:109][838]LogWorld: Bringing up level for play took: 0.569361
+[2019.12.20-09.39.53:113][838]LogLoad: Took 0.949993 seconds to LoadMap(/Game/project/widgets/chapter1)
+[2019.12.20-09.40.00:928][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.40.00:929][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.20-09.40.00:929][ 98]LogWorld: BeginTearingDown for /Game/project/widgets/UEDPIE_0_chapter1
+[2019.12.20-09.40.00:995][ 98]LogSlate: Window 'MyProject Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.12.20-09.40.01:005][ 98]LogWorld: UWorld::CleanupWorld for chapter1, bSessionEnded=true, bCleanupResources=true
+[2019.12.20-09.40.01:034][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.20-09.40.01:034][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel' has LevelScriptBlueprint '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu' with GeneratedClass '/Game/project/widgets/mainmenu.mainmenu_C' with ClassGeneratedBy '/Game/project/widgets/mainmenu.mainmenu:PersistentLevel.mainmenu'
+[2019.12.20-09.40.01:165][ 98]LogUObjectHash: Compacting FUObjectHashTables data took  12.81ms
+[2019.12.20-09.40.01:226][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.12.20-09.40.04:692][242]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2019.12.20-09.40.05:279][242]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2019.12.20-09.40.05:943][244]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/2DSideScrollerCharacter32AFD19145766A644CC64F9374DD9D6C.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/charactor/2DSideScrollerCharacter.uasset'
+[2019.12.20-09.40.07:847][323]LogUObjectHash: Compacting FUObjectHashTables data took  10.19ms
+[2019.12.20-09.40.08:363][323]LogSavePackage: Moving '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Saved/mainmenu614E98224EBA52D5F17216A4C8C9F8AD.tmp' to '../../../../../../Users/lenovo/Documents/Unreal Projects/MyProject/Content/project/widgets/mainmenu.umap'
